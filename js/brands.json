@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "Brand": "Mercedes Benz",
+    "Description": "Is a German global automobile marque and a division of Daimler AG. The brand is known for luxury vehicles, buses, coaches, and trucks. The headquarters is in Stuttgart, Baden-Württemberg. The name first appeared in 1926 under Daimler-Benz. In 2018, Mercedes-Benz was the biggest selling premium vehicle brand in the world, having sold 2.31 million passenger cars."
+  },
+  {
+    "id": 2,
+    "Brand": "Toyota",
+    "Description": "Toyota is the world's market leader in sales of hybrid electric vehicles, and one of the largest companies to encourage the mass-market adoption of hybrid vehicles across the globe. Toyota is also a market leader in hydrogen fuel-cell vehicles."
+  },
+  {
+    "id": 3,
+    "Brand": "Tesla",
+    "Description": "Tesla Motor is an American automotive and energy company based in Palo Alto, California. The company specializes in electric car manufacturing and, through its SolarCity subsidiary, solar panel manufacturing. It operates multiple production and assembly plants, notably Gigafactory 1 near Reno, Nevada, and its main vehicle manufacturing facility at Tesla Factory in Fremont, California."
+  },
+  {
+    "id": 4,
+    "Brand": "Audi",
+    "Description": "Is a German automobile manufacturer that designs, engineers, produces, markets and distributes luxury vehicles. Audi is a member of the Volkswagen Group and has its roots at Ingolstadt, Bavaria, Germany. Audi-branded vehicles are produced in nine production facilities worldwide."
+  },
+  {
+    "id": 5,
+    "Brand": "Fiat",
+    "Description": "Fiat Automobiles is the largest automobile manufacturer in Italy. During its more than century-long history, it remained the largest automobile manufacturer in Europe and the third in the world after General Motors and Ford for over twenty years, until the car industry crisis in the late 1980s. In 2013, Fiat S.p.A. was the second largest European automaker by volumes produced and the seventh in the world, while currently FCA is the world's eighth largest auto maker."
+  }
+]

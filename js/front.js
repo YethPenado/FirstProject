@@ -1,0 +1,1 @@
+const carsContainer = document.getElementById('cars-container');

@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Tesla Model X",
+    "brandid": 3,
+    "year": "2019",
+    "description": "Model X is the safest SUV ever. Built from the ground up as an electric vehicle, the body, chassis, restraints and battery technology provide a very low probability of occupant injury.",
+    "color": "Grey",
+    "date of release": "5/2/2019"
+  },
+  {
+    "id": 2, 
+    "name": "Audi R8",
+    "brandid": 4,
+    "year": "2020",
+    "description": "Limited to only 50 units, the 2020 R8 Decennium edition features a Mythos black exterior, matte bronze 20-inch milled-cut wheels and matte bronze intake manifold, along with a gloss black front spoiler, side sills and rear diffuser. Coupled with an interior finished entirely in black, inlays in gloss carbon fiber and quilted rhombus stitching in a copper tone, the R8 V10 Decennium edition pays tribute to its V10 heritage.",
+    "color": "Grey",
+    "date of release": "5/2/2019"
+  },
+  {
+    "id": 3,
+    "name": "Fiat 124 Spider",
+    "brandid": 5,
+    "year": "2020",
+    "color": "red",
+    "description": "An exclusive and origin driving experience in a sports car with an iconic 1960s design. Returning to fill you with excitement each time you touch the sterring wheel.",
+    "date": "24/5/2019"
+  }
+]

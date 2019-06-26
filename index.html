@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css"/>
+  <title>Cars Dealer App</title>
+</head>
+
+<body>
+  <h1>Cars Dealer App</h1>
+
+  <div class="container">
+    <section class="cars">
+      <h2>Cars</h2>
+      <div id="cars-container">
+        <button>Previous</button>
+        <button>Next</button>
+      </div>
+    </section>
+
+    <section class="create-brands">
+      <h2>Create Brand</h2>
+      <form action="http://localhost:1234/api/v1/brands" method="POST">
+        <label for="brands-create">Write the new brand</label>
+        <input type="text" id="new-brand" required>
+        <button type="submit">Create a new brand</button>
+      </form>
+    </section>
+
+    <section class="create-cars">
+      <h2>Create Cars</h2>
+      <ul class="tabs" id="tabs">
+        <li class="tab__item active">Create</li>
+        <li class="tab__item">Edit</li>
+      </ul>
+      <div class="panels">
+        <div class="panels__item active">
+          <form action="http://localhost:1234/api/v1/cars" method="POST"  class="grids">
+            <label for="brand-id">Brand ID</label>
+            <input type="number" name="brand-id" id="brandId" required>
+
+            <label for="name">Name</label>
+            <input type="text" name="name" id="create-name" required>
+
+            <label for="year">Year</label>
+            <input type="number" name="year" id="create-year" required>
+
+            <label for="color">Color</label>
+            <input type="text" name="color" id="create-color" required>
+
+            <label for="description">Description</label>
+            <input type="text" name="description" id="create-description">
+
+            <button type="submit">Create car</button>
+          </form>
+        </div>
+
+        <div class="panels__item">
+          <form action="" class="grids">
+            <label for="edit-brandid">Edit Brand ID</label>
+            <input type="number" name="edit-brandid" id="brandId" required>
+
+            <label for="edit-name">Edit Name</label>
+            <input type="text" name="edit-name" id="edit-name" required>
+
+            <label for="edit-year">Edit Year</label>
+            <input type="number" name="edit-year" id="edit-year" required>
+
+            <label for="edit-color">Edit Color</label>
+            <input type="text" name="edit-color" id="edit-color" required>
+
+            <label for="edit-description">Edit Description</label>
+            <input type="text" name="edit-description" id="edit-description">
+          
+            <button type="submit">Edit car</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="js/front.js"></script>
+  <script src="js/tabs.js"></script>
+</body>
+</html>
